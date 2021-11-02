@@ -1,5 +1,5 @@
 var XLSX = require("xlsx");
-var workbook = XLSX.readFile("1c.xlsx")
+var workbook = XLSX.readFile("1c.xlsx");
 let array = [];
 let suppArray = [];
 let worksheet = workbook.Sheets[workbook.SheetNames[0]];
